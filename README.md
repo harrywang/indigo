@@ -39,6 +39,13 @@
 
 If you want to test locally on your machine, do the following steps also:
 
+NOTE: for Mac M1
+
+- follow https://www.earthinversion.com/blogging/how-to-install-jekyll-on-appple-m1-macbook/ to install jekyll
+- run `bundle add webrick` according to https://github.com/github/pages-gem/issues/752
+
+then follow the instruction below:
+
 1. Install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io/).
 2. Clone the forked repo on your machine
 3. Enter the cloned folder via terminal and run `bundle install`
